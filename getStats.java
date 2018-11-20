@@ -14,7 +14,7 @@ public class getStats {
         
         //Acquire Mean
         int mean=0;
-        for (int i=0; i<= bigArray.length;i++){
+        for (int i=0; i< bigArray.length;i++){
             mean+=bigArray[i];
         }
         mean=mean/(bigArray.length+1);
